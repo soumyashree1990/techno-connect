@@ -20,5 +20,10 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/welcome" , method = RequestMethod.GET)
+	public String welcome() {
+		return "welcome";
+	}
+	
 	
 }

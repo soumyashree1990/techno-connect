@@ -12,6 +12,8 @@ public class BeanConfig extends WebMvcConfigurerAdapter {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/module/**").addResourceLocations("/module/");
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+
 	}
 
 }

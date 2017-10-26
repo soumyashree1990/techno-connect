@@ -52,7 +52,7 @@
 					</configuration>
 				</plugin>
 
-
+            <!-- This plugin is useful to run the npm command inside the eclipse  to generate javascript from typescript-->
 				<!-- <plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>exec-maven-plugin</artifactId>
